@@ -1,0 +1,29 @@
+.welcome{
+  width: 100%;
+  height: 40%;
+  background-color: #f3f4f6;
+}
+
+.converstion-square{
+  background-color: rgb(238, 229, 229);
+}
+
+.converstion-square.active {
+  background-color: rgb(66, 138, 245);
+}
+
+.chat-bubble{
+  margin-top: -1rem;
+}
+.chat-bubble:before {
+  top: 0px;
+}
+
+.converstion{
+    color: black;
+}
+
+.converstion.active{
+  background-color: #0ea5e9;
+  color: white;
+}
